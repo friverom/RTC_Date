@@ -7,13 +7,14 @@ package rtc_date;
 
 import com.pi4j.io.i2c.I2CBus;
 import com.pi4j.io.i2c.I2CFactory;
-import rpi_io.RPI_IO;
+
 import java.io.IOException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
-import rpi_io.DS1307;
+import rpio_core.DS1307;
+
 
 /**
  *
